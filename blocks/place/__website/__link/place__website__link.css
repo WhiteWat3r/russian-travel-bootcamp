@@ -1,0 +1,20 @@
+.place__website__link {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 122%;
+    border-bottom: 1px solid #FFFFFF;
+    width: fit-content;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 330px){
+    .place__website__link {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 0 16px;
+    }
+}
+

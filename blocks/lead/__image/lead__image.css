@@ -1,0 +1,21 @@
+
+.lead__image {
+    margin: 0;
+    width: calc(100vw - 296px);
+    height: calc((100vw - 296px) * (1230/1968));
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1030px){
+    .lead__image  {
+        width: calc(100vw - 96px);
+        height: calc((100vw - 96px) * (1230/1968));
+    }
+}
+
+@media screen and (max-width: 770px){
+    .lead__image  {
+        width: 100%;
+        height: calc((100vw) * (1230/1968));
+    }
+}

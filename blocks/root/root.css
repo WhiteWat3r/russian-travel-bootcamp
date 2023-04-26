@@ -1,0 +1,10 @@
+.root {
+    font-family: 'Inter', sans-serif; 
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #2A2C2F;
+}

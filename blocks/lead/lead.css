@@ -1,0 +1,33 @@
+.lead {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    margin: 0 auto;
+    padding-top: 28px;
+    width: calc(100vw - 296px);
+}
+
+@media screen and (max-width: 1030px){
+    .lead {
+        padding-top: 24px;
+        width: calc(100vw - 96px);
+    }
+}
+
+@media screen and (max-width: 770px){
+    .lead {
+        width: 100%;
+        padding-top: 24px;
+    }
+}
+
+
+
+@media screen and (max-width: 330px){
+    .lead {
+        padding-top: 15px;
+        /* По фигме отсуп должен быть также 24, но по факту почему-то оказалось меньше */
+    }
+}
