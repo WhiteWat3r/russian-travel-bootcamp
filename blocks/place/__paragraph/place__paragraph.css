@@ -20,29 +20,11 @@
 }
 
 
-/* 
-@media screen and (max-width: 720px){
-    .place__paragraph {
-        width: auto;
-    }
-}
-
-@media screen and (max-width: 540px){
-    .place__paragraph {
-        font-size: px;
-        line-height: 37px;
-    }
-}
-
-
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
     .place__paragraph{
-        font-size: 16px;
-        line-height: 24px;
+        margin-left: 20px;
     }
 }
- */
-
 
 
 @media screen and (max-width: 330px){

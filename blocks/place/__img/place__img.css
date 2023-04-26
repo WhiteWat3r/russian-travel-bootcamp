@@ -5,9 +5,18 @@
     object-fit: cover;
     /* width: calc(100vw - 148px*2 - 40px - 484px); */
 }
+
+
+@media screen and (max-width: 600px){
+    .place__img {
+        margin-left: 20px;
+    }
+}
+
 @media screen and (max-width: 330px){
     .place__img {
         width: 320px;
         height: 320px;
+        margin-left: 0;
     }
 }
