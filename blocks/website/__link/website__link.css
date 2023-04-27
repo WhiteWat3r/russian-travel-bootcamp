@@ -1,4 +1,4 @@
-.place__website__link {
+.website__link {
     margin: 0;
     font-style: normal;
     font-weight: 400;
@@ -11,14 +11,14 @@
 }
 
 
-.place__website__link:hover {
+.website__link:hover {
     opacity: 0.8;
 }
 
 
 
 @media screen and (max-width: 330px){
-    .place__website__link {
+    .website__link {
         font-size: 18px;
         line-height: 22px;
         margin: 0 16px;
