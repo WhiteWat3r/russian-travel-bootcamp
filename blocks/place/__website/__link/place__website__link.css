@@ -10,6 +10,13 @@
     text-decoration: none;
 }
 
+
+.place__website__link:hover {
+    opacity: 0.8;
+}
+
+
+
 @media screen and (max-width: 330px){
     .place__website__link {
         font-size: 18px;

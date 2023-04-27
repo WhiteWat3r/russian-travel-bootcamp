@@ -1,14 +1,11 @@
 .header__lang-links {
     display: flex;
-    /* text-align: end; */
     align-self: center;
     margin-top: 14px;
-    /* margin-bottom: 8px; */
 }
 
 @media screen and (max-width: 330px){
     .header__lang-links {
-        height: 42px;
         margin-top: 0;
     }
 } 

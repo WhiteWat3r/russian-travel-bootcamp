@@ -32,6 +32,16 @@
 @media screen and (max-width: 1030px){
     .cover {
         width: 100%;
+        height: calc((100vw) * (1280/2048));
+    }
+}
+
+
+
+@media screen and (max-width: 770px){
+    .cover {
+        margin-top: 87px;
+        margin-bottom: 87px;
     }
 }
 
@@ -44,6 +54,6 @@
 
 @media screen and (max-width: 330px){
     .cover {
-        margin: 66px auto 64px auto;
+        margin: 69px auto 64px auto;
     }
 }

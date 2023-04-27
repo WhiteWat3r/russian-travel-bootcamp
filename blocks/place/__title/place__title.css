@@ -17,30 +17,11 @@
 }
 
 
-@media screen and (max-width: 720px){
-    .place__title{
-        width: auto;
-    }
-}
 
 @media screen and (max-width: 600px){
     .place__title {
         margin-left: 20px;
-    }
-}
-
-
-@media screen and (max-width: 540px){
-    .place__title {
-        font-size: 36px;
-        line-height: 37px;
-    }
-}
-
-
-@media screen and (max-width: 480px){
-    .place__title {
-        font-size: 27px;
+        font-size: 30px;
         line-height: 33px;
     }
 }

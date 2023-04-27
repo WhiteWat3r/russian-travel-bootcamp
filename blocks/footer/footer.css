@@ -15,7 +15,7 @@
 }
 
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 600px){
     .footer {
         margin: 0 118px 0 16px;
         width: calc(100vw - 16px - 118px);
@@ -25,15 +25,3 @@
     }
 }
 
-
-
-
-@media screen and (max-width: 330px){
-    .footer {
-        margin: 0 118px 0 16px;
-        width: calc(100vw - 16px - 118px);
-        flex-direction: column;
-        height: 310px;
-        margin-bottom: 24px;
-    }
-}

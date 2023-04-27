@@ -2,8 +2,7 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 460px 484px;
-    grid-template-rows: fit-content(152px) 460px;
-    /* width: calc(100vw - 296px); */
+    grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
     padding-top: 80px;
     grid-column-gap: 40px;
     grid-row-gap: 48px;
@@ -12,7 +11,6 @@
 @media screen and (max-width: 1030px){
     .place {
         grid-template-columns: 440px 456px;
-        grid-template-rows: fit-content(152px) minmax(min-content, max-content);
         grid-column-gap: 32px;
     }
 }
@@ -21,7 +19,6 @@
 @media screen and (max-width: 930px){
     .place {
         grid-template-columns: 370px 370px;
-        grid-template-rows: fit-content(152px) minmax(min-content, max-content);
         grid-column-gap: 32px;
     }
 }
@@ -30,18 +27,15 @@
 @media screen and (max-width: 770px){
     .place {
         grid-template-columns: 340px 352px;
-        grid-template-rows: fit-content(92px) minmax(min-content, max-content); /* Как я понял, из-за изначальной проблемы с тем, что у меня не сходится шрифт происходит проблема, что последние элементы грида начинают съезжать на все больше и больше пикселей (т.к. max content получается не целым числом) */
         grid-column-gap: 28px;
-        padding-top: 73px;
+        padding-top: 71px;
     }
 }
 
 @media screen and (max-width: 720px){
     .place {
         grid-template-columns: 40vw 40vw;
-        grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content); 
         grid-column-gap: 5vw;
-        padding-top: 73px;
     }
 }
 
@@ -49,7 +43,6 @@
 @media screen and (max-width: 600px){
     .place {
         grid-template-columns: 100vw;
-        grid-template-rows: fit-content(92px) fit-content(92px) minmax(min-content, max-content) minmax(min-content, max-content);
         padding-top: 50px;
         gap: 32px;
 
@@ -59,11 +52,8 @@
 
 @media screen and (max-width: 330px){
     .place {
-        grid-template-columns: 1fr;
-        grid-template-rows: fit-content(92px) fit-content(92px) minmax(min-content, max-content) minmax(min-content, max-content);
-        padding-top: 50px;
-        gap: 32px;
-        width: 100%;
+        margin-top: 48px;
+        padding-top: 0;
     }
 }
 
