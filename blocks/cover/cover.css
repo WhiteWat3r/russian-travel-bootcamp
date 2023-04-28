@@ -1,8 +1,8 @@
 .cover {
     position: relative;
-    width: calc(100vw - 96px);
+    max-width: 1184px;
     margin: 92px auto 92px auto;
-    height: calc((100vw - 96px) * (1280/2048));
+    min-height: 740px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,10 +29,19 @@
     opacity: 0.8;
 }
 
+@media screen and (max-width: 1270px){
+    .cover {
+        min-height: calc((100vw - 96px) * (1280/2048));  
+        max-width: calc(100vw - 96px);
+    }
+}
+
+
+
 @media screen and (max-width: 1030px){
     .cover {
-        width: 100%;
-        height: calc((100vw) * (1280/2048));
+        max-width: 100%;
+        min-height: calc((100vw) * (1280/2048));
     }
 }
 
@@ -40,7 +49,7 @@
 
 @media screen and (max-width: 770px){
     .cover {
-        margin-top: 87px;
+        margin-top: 90px;
         margin-bottom: 87px;
     }
 }
@@ -54,6 +63,6 @@
 
 @media screen and (max-width: 330px){
     .cover {
-        margin: 69px auto 64px auto;
+        margin: 66px auto 64px auto;
     }
 }

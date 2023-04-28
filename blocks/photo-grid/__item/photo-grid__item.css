@@ -1,5 +1,6 @@
 .photo-grid__item {
-    width: calc((100vw - 16px*3 - 96px)/4);
+    /* width: calc((100vw - 16px*3 - 96px)/4); */
+    width: 100%;
 }
 
 
@@ -14,8 +15,6 @@
         width: calc((100vw - 16px - 48px)/2);
     }
 }
-
-
 
 @media screen and (max-width: 330px){
     .photo-grid__item {

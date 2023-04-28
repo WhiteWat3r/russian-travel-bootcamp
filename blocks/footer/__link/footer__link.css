@@ -10,6 +10,11 @@
     margin-right: 18px;
 }
 
+
+.footer__link:hover {
+    opacity: 0.8;
+}
+
 @media screen and (max-width: 600px){
     .footer__link {
         font-size: 24px;

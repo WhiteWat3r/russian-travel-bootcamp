@@ -34,6 +34,7 @@
         line-height: 35px;
         margin: 0 16px;
         width: calc(100vw - 32px);
+        align-self: center;
     }
 }
 

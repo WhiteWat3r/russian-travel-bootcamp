@@ -45,14 +45,13 @@
         grid-template-columns: 100vw;
         padding-top: 50px;
         gap: 32px;
-
     }
 }
 
 
 @media screen and (max-width: 330px){
     .place {
-        margin-top: 48px;
+        margin-top: 55px;
         padding-top: 0;
     }
 }

@@ -1,8 +1,6 @@
-
 .lead__image {
     margin: 0;
-    width: calc(100vw - 296px);
-    height: calc((100vw - 296px) * (1230/1968));
+    width: 100%;
     object-fit: cover;
 }
 
