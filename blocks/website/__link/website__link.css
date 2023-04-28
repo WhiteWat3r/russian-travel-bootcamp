@@ -19,8 +19,6 @@
 
 @media screen and (max-width: 330px){
     .website__link {
-        font-size: 18px;
-        line-height: 22px;
         margin: 0 16px;
     }
 }

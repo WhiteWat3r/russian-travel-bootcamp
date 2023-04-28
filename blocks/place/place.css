@@ -19,7 +19,6 @@
 @media screen and (max-width: 930px){
     .place {
         grid-template-columns: 370px 370px;
-        grid-column-gap: 32px;
     }
 }
 
@@ -51,7 +50,8 @@
 
 @media screen and (max-width: 330px){
     .place {
-        margin-top: 55px;
+        margin-top: 50px;
+        /* было 55 */
         padding-top: 0;
     }
 }

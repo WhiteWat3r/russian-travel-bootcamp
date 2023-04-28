@@ -12,14 +12,13 @@
 @media screen and (max-width: 1030px){
     .lead {
         padding-top: 24px;
-        width: calc(100vw - 96px);
+        max-width: calc(100vw - 96px);
     }
 }
 
 @media screen and (max-width: 770px){
     .lead {
-        width: 100%;
-        padding-top: 24px;
+        max-width: 100%;
     }
 }
 
@@ -28,6 +27,5 @@
 @media screen and (max-width: 330px){
     .lead {
         padding-top: 15px;
-        /* По фигме отсуп должен быть также 24, но по факту почему-то оказалось меньше */
     }
 }

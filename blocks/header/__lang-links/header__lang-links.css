@@ -1,13 +1,18 @@
 .header__lang-links {
     display: flex;
-    align-self: center;
-    margin-top: 28px;
     list-style: none;
     padding: 0;
+    gap: 18px;
+    margin-top: 18px;
+    margin-bottom: 6px;
+    align-items: end;
 }
+
+
 
 @media screen and (max-width: 330px){
     .header__lang-links {
-        margin-top: 0;
+        margin-top: 8px;
+        margin-bottom: 18px;
     }
-} 
+}

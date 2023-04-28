@@ -12,7 +12,7 @@
     .place__title{
         font-size: 42px;
         line-height: 46px;
-        width: 328px;
+        max-width: 328px;
     }
 }
 
@@ -33,7 +33,7 @@
         font-size: 32px;
         line-height: 35px;
         margin: 0 16px;
-        width: calc(100vw - 32px);
+        max-width: calc(100vw - 32px);
         align-self: center;
     }
 }
