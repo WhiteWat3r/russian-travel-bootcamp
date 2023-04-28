@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 1270px){
     .cover__link {
-        min-height: calc((100vw - 96px) * (1280/2048));  
+        min-height: calc((100vw - 96px) * (1280/2048));
         max-width: calc(100vw - 96px);
     }
 }
